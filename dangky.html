@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Thông tin thành viên</title>
+    </head>
+    <body>
+        <h2>PHIẾU ĐĂNG KÝ</h2>
+        <form>
+            <label for="hoten">Họ và tên:</label>
+            <input type="text" id="hoten" name="hoten" required /> (*)<br /><br />
+
+            <label for="diachi">Địa chỉ:</label>
+            <input type="text" id="diachi" name="diachi" /><br /><br />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required /> (*)<br /><br />
+
+            <label>Giới tính:</label>
+            <input type="radio" id="nam" name="gioitinh" value="Nam" />
+            <label for="nam">Nam</label>
+            <input type="radio" id="nu" name="gioitinh" value="Nu" />
+            <label for="nu">Nữ</label><br /><br />
+
+            <label for="tuoi">Tuổi:</label>
+            <input type="number" id="tuoi" name="tuoi" required /> (*)<br /><br />
+
+            <label>Sở thích:</label>
+            <input type="checkbox" id="thethao" name="sothich" value="Thể thao" />
+            <label for="thethao">Thể thao</label><br />
+            <input type="checkbox" id="vanhoc" name="sothich" value="Văn học" />
+            <label for="vanhoc">Văn học</label><br />
+            <input type="checkbox" id="cntt" name="sothich" value="Công nghệ thông tin" />
+            <label for="cntt">Công nghệ thông tin</label><br />
+            <input type="checkbox" id="lichsu" name="sothich" value="Lịch sử" />
+            <label for="lichsu">Lịch sử</label><br />
+            <input type="checkbox" id="game" name="sothich" value="Game" />
+            <label for="game">Game</label><br /><br />
+
+            <label for="chuyennganh">Chuyên ngành:</label>
+            <select id="chuyennganh" name="chuyennganh">
+                <option value="Cong nghe Web">Công nghệ Web</option>
+                <option value="Cong nghe phan mem">Công nghệ phần mềm</option>
+                <option value="He thong thong tin">Hệ thống thông tin</option>
+                <option value="Mang may tinh">Mạng máy tính</option>
+            </select><br /><br />
+
+            <label for="anh">Gửi hình:</label>
+            <input type="file" id="anh" name="anh" /><br /><br />
+
+            <label for="yeucau">Yêu cầu:</label><br />
+            <textarea id="yeucau" name="yeucau" rows="6" cols="50"></textarea><br /><br />
+
+            <input type="submit" value="Gửi thông tin" />
+            <input type="reset" value="Nhập lại" />
+        </form>
+    </body>
+</html>

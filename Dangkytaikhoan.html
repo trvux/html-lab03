@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Đăng ký tài khoản</title>
+    </head>
+    <body>
+        <h2>ĐĂNG KÝ TÀI KHOẢN</h2>
+        <form>
+            <input type="text" id="username" name="username" placeholder="Nhập username" /><br /><br />
+            <input type="password" id="password" name="password" placeholder="Nhập mật khẩu" /><br /><br />
+            <input type="email" id="email" name="email" placeholder="Nhập địa chỉ email" /><br /><br />
+
+            <label for="ngaysinh">Ngày sinh</label>
+            <label for="gioitinh">Giới tính</label><br />
+            <input type="date" id="ngaysinh" name="ngaysinh" />
+            <select id="gioitinh" name="gioitinh">
+                <option value="Nam">Nam</option>
+                <option value="Nu">Nữ</option>
+            </select><br /><br />
+
+            <label>Sở thích</label><br />
+            <input type="checkbox" id="xemphim" name="sothich" value="Xem phim" />
+            <label for="xemphim">Xem phim</label><br />
+            <input type="checkbox" id="nghenhac" name="sothich" value="Nghe nhạc" />
+            <label for="nghenhac">Nghe nhạc</label><br />
+            <input type="checkbox" id="docsach" name="sothich" value="Đọc sách" />
+            <label for="docsach">Đọc sách</label><br />
+            <input type="checkbox" id="dulich" name="sothich" value="Du lịch" />
+            <label for="dulich">Du lịch</label><br /><br />
+
+            <label for="gioithieu">Giới thiệu bản thân</label><br />
+            <textarea id="gioithieu" name="gioithieu" rows="8" cols="50"></textarea><br /><br />
+
+            <input type="reset" value="Cancel" />
+            <input type="submit" value="Đăng ký" />
+        </form>
+    </body>
+</html>

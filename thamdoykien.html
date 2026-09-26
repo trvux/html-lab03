@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Phiếu thăm dò ý kiến</title>
+    </head>
+    <body>
+        <h2>PHIẾU THĂM DÒ Ý KIẾN</h2>
+        <form>
+            <label for="username">Tên đăng nhập:</label>
+            <input type="text" id="username" name="username" /><br /><br />
+
+            <label>Giới tính:</label>
+            <input type="radio" id="nam" name="gioitinh" value="Nam" />
+            <label for="nam">Nam</label>
+            <input type="radio" id="nu" name="gioitinh" value="Nu" />
+            <label for="nu">Nữ</label><br /><br />
+
+            <label>Những mục bạn thường quan tâm trên Internet</label><br />
+            <input type="checkbox" id="tintuc" name="quantam" value="Tin tức" />
+            <label for="tintuc">Tin tức</label><br />
+            <input type="checkbox" id="giaitri" name="quantam" value="Giải trí" />
+            <label for="giaitri">Giải trí</label><br />
+            <input type="checkbox" id="gochoctap" name="quantam" value="Góc học tập" />
+            <label for="gochoctap">Góc học tập</label><br />
+            <input type="checkbox" id="giaoduc" name="quantam" value="Giáo dục" />
+            <label for="giaoduc">Giáo dục</label><br />
+            <input type="checkbox" id="cacmuckhac" name="quantam" value="Các mục khác" />
+            <label for="cacmuckhac">Các mục khác</label><br /><br />
+
+            <input type="reset" value="Cancel" />
+            <input type="submit" value="Gửi đi" />
+        </form>
+    </body>
+</html>
